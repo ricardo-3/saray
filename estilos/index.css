@@ -1,0 +1,308 @@
+body{      
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+    background-size: 100%;   
+}
+
+
+
+nav{
+   box-shadow: 1px 13px 12px -6px rgba(0,0,0,0.68);
+  -webkit-box-shadow: 1px 13px 12px -6px rgba(0,0,0,0.68);
+  -moz-box-shadow: 1px 13px 12px -6px rgba(0,0,0,0.68);
+
+}
+
+
+
+
+.navbar-brand{
+    letter-spacing: 1px;
+    font-size: 27px;        
+}
+
+
+
+
+
+.navbar-dark .navbar-brand {
+    color: #BAD7E9;
+}
+
+
+
+
+
+
+.card{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 18px;
+    height: auto;
+}
+
+
+
+
+
+nav ul li.nav-item a{
+    background: linear-gradient(to right, #6190e8, #a7bfe8);
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    margin-right:20px ;
+}
+
+nav ul li.nav-item a:hover{
+  color: #fff!important;
+  background-size: 100% 2px;
+  
+}
+
+.texto h1, p{
+    color: #fff;
+}
+
+.publicidad{
+    margin-top: 50px;
+}
+
+.titulos h2{
+    font-size: 30px;
+    letter-spacing: 3px;    
+    text-align: center;
+    background: linear-gradient(to right, #6190e8, #a7bfe8);
+    color: #fff; 
+    width: 800px;
+    height: 45px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    font-family: 'Roboto';   
+          
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 510px;
+    border-radius: 10px;
+    background-color: rgba(2, 0, 0, 0.5);
+}
+
+
+
+
+footer .titulo h6{
+    color: #ffff;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+       
+    
+}
+
+
+
+.boton a{
+    color: #fff;
+    font-size: 20px;
+    background: #25d366 ;
+    border: 1 px solid #25d366 ;
+    text-decoration: none;
+}
+
+.boton a:hover{
+    background: #000;
+    color: #fff;
+    font-size: 25;
+    text-decoration: none;
+}
+
+
+.cambio .boton{
+    background:#856a6f;
+    color:#fff;
+    text-decoration: none;
+}
+
+.cambio .boton:hover{
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card .card-body a:hover{
+   background: #000;
+   color: #fff;
+}
+
+
+.card h5{
+    letter-spacing: 1px;
+}
+
+
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:30px;
+    right:30px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+    }
+    .btn-wsp:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color:#fff;
+    }
+    .icono{
+    margin-top:14px;
+    margin-left:3px;
+    }
+
+
+    .titulo h6{color: #fff;}
+
+    .redes a{
+        
+        list-style: none;
+        text-decoration: none;        
+        font-size: 25px;
+        color: #fff;
+        margin-right: 15px;
+        
+        
+    }
+
+    .redes a:hover{
+              
+        color: black;
+    }
+
+
+    @media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+    width:63px;
+    height:63px;
+        }
+
+
+        .titulos h2{
+            font-size: 20px;
+            letter-spacing: 3px;    
+            text-align: center;
+            background: linear-gradient(to right, #6190e8, #a7bfe8);
+            color: #fff; 
+            width: 320px;
+            height: 30px;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+                  
+        }
+        
+
+        footer{
+            width: 100%;
+            height: 510px;
+            border-radius: 10px;
+            background-color: rgba(2, 0, 0, 0.5);
+        }
+
+
+
+
+
+
+    }
+
+    @media only screen and (min-width:520px) and (max-width:780px){
+
+        footer{
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            background-color: rgba(2, 0, 0, 0.5);
+        }
+
+
+
+    }
+
+    
+    @media only screen and (min-width:300px) and (max-width:540px){
+
+       
+
+        iframe{
+            width: 330px;
+            height: 190px;
+        }
+
+        .cambio h1{
+            margin-top: 50px;
+        }
+
+
+        footer{
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            background-color: rgba(2, 0, 0, 0.5);
+        }
+
+    }
+
+
+    @media only screen and (min-width:300px) and (max-width:380px){
+
+        .logot{
+            font-size: 19px;
+            
+        }
+
+        iframe{
+            width: 295px;
+            height: 150px;
+        }
+
+        .redes a{        
+            list-style: none;
+            text-decoration: none;        
+            font-size: 18px;
+            color: #fff;
+            margin-right: 15px;
+            
+            
+        }
+
+
+        footer{
+            width: 100%;
+            height: 910px;
+            border-radius: 10px;
+            background-color: rgba(2, 0, 0, 0.5);
+        }
+
+    }
+
+
+
+    
